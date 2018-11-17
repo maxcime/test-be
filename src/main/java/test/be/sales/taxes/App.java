@@ -46,7 +46,7 @@ public class App
         System.out.println( "Output 2\n" );
         System.out.println( output2 );
         System.out.println( "--------------" );
-        System.out.println( "Output 2\n" );
+        System.out.println( "Output 3\n" );
         System.out.println( output3 );
     }
 }
