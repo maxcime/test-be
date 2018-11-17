@@ -1,5 +1,10 @@
 package test.be.sales.taxes;
 
+/**
+ * 
+ * @author massimo.cimetti
+ *
+ */
 public class CalculateTaxes {
 	
 	public static int taxValue = 10;
@@ -34,6 +39,7 @@ public class CalculateTaxes {
 		
 		double tax = price * taxValue / 100;
 		
+		//This round permits to have the nearest 0.05
 		double taxRounded = Math.round(tax * 20.0) / 20.0;
 		
 		return taxRounded;

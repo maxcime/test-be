@@ -1,5 +1,10 @@
 package test.be.sales.taxes;
 
+/**
+ * 
+ * @author massimo.cimetti
+ *
+ */
 public class Product {
 
 	ProductType productType;
