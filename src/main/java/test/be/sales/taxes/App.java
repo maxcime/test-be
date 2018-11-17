@@ -26,8 +26,8 @@ public class App
     	
     	//input 2
     	List<Product> input2 = new ArrayList<Product>();
-    	input2.add(new Product(ProductType.FOOD,true,10.00,"imported box of chocolates:", 1));
-    	input2.add(new Product(ProductType.OTHER,true,47.50,"imported bottle of perfume:", 1));
+    	input2.add(new Product(ProductType.FOOD,true,10.00,"imported box of chocolates", 1));
+    	input2.add(new Product(ProductType.OTHER,true,47.50,"imported bottle of perfume", 1));
     	
     	String output2 = printReceipt.print(input2);
     	
@@ -36,7 +36,7 @@ public class App
     	input3.add(new Product(ProductType.OTHER,true,27.99,"imported bottle of perfume", 1));
     	input3.add(new Product(ProductType.OTHER,false,18.99,"bottle of perfume", 1));
     	input3.add(new Product(ProductType.MEDICAL,false,9.75,"packet of headache pills", 1));
-    	input3.add(new Product(ProductType.FOOD,true,11.25,"imported box of chocolates:", 1));
+    	input3.add(new Product(ProductType.FOOD,true,11.25,"imported box of chocolates", 1));
     	
     	String output3 = printReceipt.print(input3);
     	
